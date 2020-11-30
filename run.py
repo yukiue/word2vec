@@ -2,6 +2,6 @@
 
 from gensim.models import Word2Vec
 
-model = Word2Vec.load('ja/ja.tsv')
+model = Word2Vec.load('./models/ja.bin')
 
-print(model.wv.most_similar('講義'))
+print(model.wv.most_similar('私'))
