@@ -2,6 +2,6 @@
 
 from gensim.models import Word2Vec
 
-model = Word2Vec.load('./models/ja.bin')
+model = Word2Vec.load('models/ja/ja.bin')
 
 print(model.wv.most_similar('私'))
